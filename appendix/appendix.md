@@ -4,7 +4,7 @@ This appendix provides supporting material for the practical experiment conducte
 
 ---
 
-## 📁 Project Repository Link
+## Project Repository Link
 
 All project files used in this research, including Terraform modules, the CloudFormation template, and screenshots, are available in this repository:
 
@@ -12,7 +12,7 @@ https://github.com/chandh27/IAC.git
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ca2-infra-project/
@@ -70,7 +70,7 @@ terraform destroy
 
 ---
 
-## 📸 Deployment Screenshots (located in /screenshots)
+## Deployment Screenshots (located in /screenshots)
 
 - Terraform apply output  
 - AWS VPC console view  
@@ -80,11 +80,12 @@ terraform destroy
 
 ---
 
-## 📌 Purpose of This Appendix
+## Purpose of This Appendix
 
 This appendix verifies that:
 - The practical implementation was completed accurately  
 - Terraform and CloudFormation deployments were executed successfully  
 - The experiment is fully reproducible  
 - All evidence aligns with the research paper  
+
 
