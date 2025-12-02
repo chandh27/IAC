@@ -13,9 +13,6 @@ provider "aws" {
   region = var.aws_region
 }
 
-# -----------------------------
-# VPC Module
-# -----------------------------
 module "vpc" {
   source = "./modules/vpc"
 
@@ -28,9 +25,6 @@ module "vpc" {
   availability_zone2 = var.availability_zone2
 }
 
-# -----------------------------
-# EC2 Module
-# -----------------------------
 module "ec2" {
   source = "./modules/ec2"
 
@@ -39,9 +33,6 @@ module "ec2" {
   instance_type         = var.instance_type
 }
 
-# -----------------------------
-# RDS Module
-# -----------------------------
 module "rds" {
   source = "./modules/rds"
 
@@ -51,3 +42,4 @@ module "rds" {
   db_password           = var.db_password
   db_instance_class     = var.db_instance_class
 }
+
