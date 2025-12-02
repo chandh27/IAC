@@ -111,7 +111,17 @@ It contains reproducibility notes, project structure, and links used in the rese
 
 ## References
 
-Please refer to the Research Paper for complete Harvard-style references.
+Amazon Web Services (AWS) 2024, AWS CloudFormation User Guide, https://docs.aws.amazon.com/cloudformation/.
+Amazon Web Services (AWS) 2024, Amazon Virtual Private Cloud (VPC) Documentation, https://docs.aws.amazon.com/vpc/.
+Amazon Web Services (AWS) 2024, Amazon EC2 Documentation, https://docs.aws.amazon.com/ec2/.
+Amazon Web Services (AWS) 2024, Amazon Relational Database Service (RDS) Documentation, https://docs.aws.amazon.com/rds/.
+HashiCorp 2024, Terraform Documentation, https://developer.hashicorp.com/terraform/docs.
+HashiCorp 2024, Terraform Best Practices: Infrastructure as Code, https://developer.hashicorp.com/terraform.
+Yevick, M. 2020, ‘A Comparison of AWS CloudFormation and HashiCorp Terraform for Infrastructure Automation’, Medium, https://medium.com.
+Rahman, A. & Williams, L. 2018, ‘Software Engineering for Infrastructure as Code: A Research Agenda’, IEEE Software, vol. 35, no. 1, pp. 44–52, https://doi.org/10.1109/MS.2017.4121227.
+Spinellis, D. 2018, ‘Declarative Configuration and Infrastructure as Code’, Communications of the ACM, vol. 61, no. 12, pp. 50–57, https://doi.org/10.1145/3276740.
+HashiCorp 2023, Multi-Cloud Infrastructure Automation with Terraform, https://www.hashicorp.com/resources.
+Amazon Web Services (AWS) 2024, Best Practices for CloudFormation Templates, AWS Solutions Architecture Team, https://aws.amazon.com/architecture/.
 
 ---
 
@@ -120,6 +130,7 @@ Please refer to the Research Paper for complete Harvard-style references.
 ### CHANDINI N T  
 #### MSc Cloud Computing  
 #### Coursework – IT Infrastructure & Automation 
+
 
 
 
