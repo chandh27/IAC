@@ -1,4 +1,4 @@
-# CA2 – Terraform vs AWS CloudFormation (AWS Mumbai Region)
+# Terraform vs AWS CloudFormation (AWS Mumbai Region)
 
 This repository contains all code and evidence used for the CA2 research project comparing **Terraform** and **AWS CloudFormation** by deploying identical infrastructure in the AWS Mumbai region (ap-south-1).
 
@@ -120,4 +120,5 @@ Please refer to the Research Paper for complete Harvard-style references.
 CHANDNDINI N T  
 MSc Cloud Computing  
 Coursework – IT Infrastructure & Automation 
+
 
