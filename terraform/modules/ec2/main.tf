@@ -1,10 +1,3 @@
-variable "public_subnet_id" {}
-variable "ec2_security_group_id" {}
-variable "instance_type" {
-  default = "t3.micro"
-}
-
-# Fetch latest Amazon Linux 2 AMI from SSM
 data "aws_ssm_parameter" "amzn2_latest" {
   name = "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
 }
@@ -31,6 +24,4 @@ resource "aws_instance" "web" {
   }
 }
 
-output "ec2_public_ip" {
-  value = aws_instance.web.public_ip
-}
+
