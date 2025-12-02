@@ -37,7 +37,6 @@ Parameters:
 
 Resources:
 
-  # ---------------- VPC & Subnets ----------------
   VPC:
     Type: AWS::EC2::VPC
     Properties:
@@ -88,7 +87,7 @@ Resources:
         - Key: Name
           Value: private-subnet-2
 
-  # ---------------- Routing ----------------
+
   PublicRouteTable:
     Type: AWS::EC2::RouteTable
     Properties:
@@ -111,9 +110,7 @@ Resources:
       SubnetId: !Ref PublicSubnet
       RouteTableId: !Ref PublicRouteTable
 
-  # (RDS is private; we don’t need NAT for this assignment)
 
-  # ---------------- Security Groups ----------------
   EC2SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
@@ -156,7 +153,7 @@ Resources:
         - Key: Name
           Value: rds-mysql-sg
 
-  # ---------------- EC2 Instance ----------------
+
   WebServerInstance:
     Type: AWS::EC2::Instance
     Properties:
@@ -177,7 +174,7 @@ Resources:
         - Key: Name
           Value: cf-mumbai-web-ec2
 
-  # ---------------- RDS (MySQL) ----------------
+
   DBSubnetGroup:
     Type: AWS::RDS::DBSubnetGroup
     Properties:
@@ -223,3 +220,4 @@ Outputs:
   RDSEndpoint:
     Description: RDS endpoint
     Value: !GetAtt MyDB.Endpoint.Address
+
