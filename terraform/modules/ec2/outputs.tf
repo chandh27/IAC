@@ -8,7 +8,4 @@ output "ec2_instance_id" {
   value       = aws_instance.web.id
 }
 
-output "ec2_private_ip" {
-  description = "Private IP address of the EC2 instance"
-  value       = aws_instance.web.private_ip
-}
+
